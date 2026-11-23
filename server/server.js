@@ -13,7 +13,7 @@ const MONGO_URI =
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://lab-7-1-hjs3.onrender.com/"],
+    origin: ["http://localhost:5173", "https://lab-7-1-hjs3.onrender.com`"],
     credentials: true,
   }),
 );
